@@ -11,14 +11,13 @@ Key Features
 3. Seismic Scenario Integration: Pre-processed IBB M7.5 Nighttime scenario data used to identify "Avoidance Zones."
 4. Intelligent Agent Logic: Powered by LangGraph to handle geocoding, shelter finding and risk assessment tasks autonomously.
 ️ 
-Installation
-To set up the environment, run the following command to install all necessary Python libraries:
-python -m pip install python-dotenv requests shapely folium networkx osmnx scikit-learn langchain langgraph
-
 Environment Setup
-Create a .env file in the root directory. Based on the current project requirements, your file should look like this:
-USE_LIVE_OSM=true
-LLM_MODEL=claude-sonnet-4-6
+To set up the environment, run the following command to install all necessary Python libraries:
+1. python -m pip install python-dotenv requests shapely folium networkx osmnx scikit-learn langchain langgraph
+2. Create a .env file in the root directory. Based on the current project requirements, your file should look like this:
+    USE_LIVE_OSM=true
+    LLM_MODEL=claude-sonnet-4-6
+3. Then run scripts/download_ibb_data.py and scripts/build_real_data.py
 
 Dataset & Supported Districts
 Due to the current availability of live IBB scenario data and the high computational cost of city-wide risk mapping, the current demo is optimized for the following districts:

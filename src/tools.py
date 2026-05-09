@@ -126,7 +126,7 @@ def _live_osm_route(start_lat: float, start_lon: float, end_lat: float, end_lon:
     from shapely.geometry import LineString
 
     ox.settings.use_cache = True
-    print("🌐 OSMnx Canlı Harita yükleniyor (İlk sefer uzun, sonrakiler anında)...")
+    print("🌐 OSMnx Canlı Harita yükleniyor (Cache boşsa birkaç saniye bekletebilir)...")
     
     north = max(start_lat, end_lat) + 0.01
     south = min(start_lat, end_lat) - 0.01

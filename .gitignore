@@ -10,6 +10,10 @@ outputs/*.html
 .cache/
 .osmnx_cache/
 *.egg-info/
-data/
+data/raw_ibb_deprem_senaryosu.csv
+data/raw_ibb_green_areas.geojson
+data/raw_ibb_muhtarlik.geojson
+data/shelters_istanbul.geojson
+data/risk_zones.geojson
 cache/
 docs/
