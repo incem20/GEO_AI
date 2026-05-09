@@ -1,0 +1,13 @@
+langchain>=0.3.0
+langchain-anthropic>=0.3.0
+langchain-core>=0.3.0
+langgraph>=0.2.50
+anthropic>=0.40.0
+shapely>=2.0.0
+geopandas>=0.14.0
+folium>=0.17.0
+osmnx>=2.0.0
+networkx>=3.2
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+rich>=13.0.0
